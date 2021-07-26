@@ -1,0 +1,19 @@
+State0:Fetch       -> 000001001010110xxxxxx_xxxx_01010;
+			
+State1:Decode      -> 000000000x10110xxxxxx_xxxx_01011;
+			
+State2:MemAdr      -> 000000000xxx001xxxxxx_xx0x_01100;
+			
+State3:MemRead     -> 000000100100xxxxxxxxx_xxxx_01010;
+			
+State4:MemWB       -> 000000100x01xxxxxxxxx_xxxx_00000;
+			
+State5:MemWrite    -> 000000010100xxxxxxxxx_xxxx_00000;
+			
+State6:ExecuteR    -> 010000000xxx000xxxxxx_xxxx_01000;
+			
+State7:ExecuteI    -> 010000000xxx001xxxxxx_xxxx_01000;
+
+State8:ALUWB       -> 000000100x00xxxxxxxxx_xxxx_00000;
+			
+State9:Branch      -> 100000000x10001xxxxxx_xxxx_00000;
